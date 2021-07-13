@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KarmaPicker.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Material\icon\app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KarmaPicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="KarmaPicker.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC マニフェスト オプション
+             Windows のユーザー アカウント制御のレベルを変更するには、
+             requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            requestedExecutionLevel 要素を指定すると、ファイルおよびレジストリの仮想化が無効にされます。
+            アプリケーションが下位互換性を保つためにこの仮想化を要求する場合、この要素を
+            削除します。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KarmaPicker.exe" size="9915392">
+      <assemblyIdentity name="KarmaPicker" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ur7aaLIGqcCOUIznuAKFCej9eXQl+m/CUrhM/prnJdE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="app.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S2wFi2EbuFfizMf0vDYtJiDb/VLPmYcFGVNHQrgI3qU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="KarmaPicker.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\calendar.png" size="908">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qy1seYCRu59A12JhQ58IjTjVYHPy0Jm0EsTwIbXPwcg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\chart-diagram.png" size="53393">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XkSGAWUO/hK0BoJNgAzh6VAg1os9ogPK1hSZoifMZGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\Conact.png" size="680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tCiLEl/JWieYFkAAbxTq824EB0duL4vdWoITwOhPSo8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\diagram.png" size="675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0nnVDqCD3A0BtLZRo/NTTyJO6ZnlZh9/QQrQN64jpOs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\downloads.png" size="31330">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hnDesZTs5Vkp/OeHQ6mwZU2WbXIPqnEKT5nWIm8tPrw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\GUI_Select_22 1.wav" size="132344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d2/K2rdIgtih35fmHCOzm3z8WnjYn6A1REVoAY/sagE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\home.png" size="720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8McHpKD4iEHMSRyXH8STwgnGgc0ZlyqdF48XCspO8EA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\money-bag.png" size="54452">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lRNLcYS4l1TZvoCPQdWI4YLWzgTK0NJEchfINzbUCHw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\New Text Document.txt" size="1326">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KN2zyea9k+1KFxucSJgfDiyWFrFQn5Ku3LUpeTWwv/M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_groups_black_24dp.png" size="431">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vWlU5kkFdAFFX4pFOyx4VvKvGv+MMaOl3oCk82GxgGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_help_black_24dp.png" size="551">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6nEXRXgSzw2NfE2DYyku2hvrct3TAnASWN0RJQq2Kn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_home_black_24dp.png" size="337">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lH5nYbv4+p+SuZjqPui4nFXxBCvxqaR1pIGCmhFTVj4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_logout_black_24dp.png" size="213">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xIcwU6DOKsI+4s7BNdCe7iiXAlqKAQl2ra03SVvX9xM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_settings_black_24dp.png" size="732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ga4Nvb8i8GIzjoGooCmC9VGcBxwELko+20sKUcvJQak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\outline_trending_up_black_24dp.png" size="250">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VzS1G9CdDuDGTwDB99+lIpnQEp695h9XMoqWAxZub74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\settings.png" size="847">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UtM0F4due7Rki3MpL5ytShPiJVEt6agI4tp4SiGKrrI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\Dashboard Resources\Untitled-11.png" size="22706">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>18B/ACgVMvgAFxj7nRFMwR22/dc+3Q60TDJNXIDRIRo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\icon\app.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S2wFi2EbuFfizMf0vDYtJiDb/VLPmYcFGVNHQrgI3qU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Notification 02 1.wav" size="434846">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E/9iuwXYkq2D8VsKjxzYyZbNSBDFiTkam2r8Ot+zl2o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Notification 07 1.wav" size="141122">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+3n+fUp3xioJaEIkWtD8VAeiCGiYoDG3jeQeoea8zI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Notification 13 1.wav" size="926144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c71upkCMfrnhHdlwCg1RptjvCPTfT9e5I9Eb2VPCHZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Notification 14 1.wav" size="727694">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QqBQ65J0Bty6P/5uu3vyrGVt6okHYszItaP3IjAKPFg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Scroll Sound 11 1.wav" size="22634">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RhWjUwUjAAQTHdN8up+WqX1nEUfInjMOV+9cooI759Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Scroll Sound 32 1.wav" size="15248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NvwgwKmnRmfQoqDV65Og5VaWPJp6afptU3lQe12pjio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Select_05 1.wav" size="231572">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OcV8yHfAiYlyLycVUHDU8mxcyyIMkrnawO+cCN3nqCU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Swipe 01 1.wav" size="297722">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IcPAINrJvJoEaVx3Mc1aD00T4pfn/K1rhP8h/JLFPww=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Swipe 15 1.wav" size="529244">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+KN0xsZYHCo6OBVvBeoKBLIrc67zAn+YjecK8SB9rTc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Material\SFX\GUI_Tally Up_11.wav" size="330794">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M+8jgTvEGI7p9sW/k9FjKTXDJbzCybyRKigbBGYxi/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- このアプリケーションがテストされ、動作するよう設計された Windows バージョンの
+           一覧。適切な要素をコメント解除すると、最も互換性のある環境を Windows が
+           自動的に選択します。-->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
